@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="imgs/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Task4 - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="container w-11/12 mx-auto my-5">
+      <div class="flex justify-between mb-24 md:flex-row flex-col">
+        <div class="flex items-center justify-start flex-col md:flex-row">
+          <img
+            class="mx-auto md:mr-11 mb-5 md:mb-0"
+            src="imgs/logo.svg"
+            alt="Logo"
+          />
+          <ul
+            class="flex justify-start gap-x-10 md:gap-x-7 mb-5 md:mb-0 text-lg"
+          >
+            <a
+              href="#"
+              class="hover:border-b-2 border-black transition-all duration-150 hover:text-xl"
+              ><li>Features</li></a
+            >
+            <a
+              href="#"
+              class="hover:border-b-2 border-black transition-all duration-150 hover:text-xl"
+              ><li>Company</li></a
+            >
+            <a
+              href="#"
+              class="hover:border-b-2 border-black transition-all duration-150 hover:text-xl"
+              ><li>Careers</li></a
+            >
+            <a
+              href="#"
+              class="hover:border-b-2 border-black transition-all duration-150 hover:text-xl"
+              ><li>About</li></a
+            >
+          </ul>
+        </div>
+        <div class="flex gap-x-8 items-center justify-center md:justify-end">
+          <a href="#">Login</a>
+          <a
+            href="#"
+            class="border-2 rounded-xl border-black px-4 py-1 hover:bg-black hover:text-white transition-all duration-200"
+            >Register</a
+          >
+        </div>
+      </div>
+      <div
+        class="md:ml-32 ml-0 flex justify-between flex-col-reverse md:flex-row"
+      >
+        <div class="flex flex-col md:w-2/3">
+          <h2
+            class="font-bold text-8xl capitalize mb-16 text-center md:text-left"
+          >
+            make <br />
+            remote work
+          </h2>
+          <p class="text-lg mb-10 text-center md:text-left">
+            Get your team in sync, no matter your location. <br />
+            Streamline processes, create team rituals, and <br />
+            watch productivity soar.
+          </p>
+          <a
+            href="#"
+            class="mx-auto md:mx-0 bg-black text-white px-6 py-1 w-fit rounded-lg text-xl flex justify-center items-center font-bold hover:scale-125 transition-all duration-500"
+            >Learn More</a
+          >
+          <div
+            class="mt-20 flex md:justify-start justify-center items-center gap-x-3 md:gap-x-7"
+          >
+            <img src="imgs/client-databiz.svg" alt="" />
+            <img src="imgs/client-audiophile.svg" alt="" />
+            <img src="imgs/client-meet.svg" alt="" />
+            <img src="imgs/client-maker.svg" alt="" />
+          </div>
+        </div>
+        <div class="w-full md:w-2/5 md:mb-0 mb-10">
+          <img class="w-full" src="imgs/image-hero-desktop.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
